@@ -10,7 +10,7 @@
   var CLOUDINARY_URL = 'https://player.cloudinary.com/embed/?cloud_name=duczzabnr&public_id=SSYS-video_intro_1_-Compresi%C3%B3n_de_v%C3%ADdeo-20260702-121726_t40fb8&autoplay=true&muted=false';
   var TARGET_DATE = new Date('2026-08-29T00:00:00-05:00');
 
-  var IMG = 'assets/images/';
+  var IMG = '/assets/images/';
 
   /* ---------- Datos ---------- */
   var SLIDES = [
