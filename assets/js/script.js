@@ -393,7 +393,7 @@
       if (!act) return;
       var a = act.getAttribute('data-action');
       if (a === 'open-form') { e.preventDefault(); openForm(); }
-      else if (a === 'close-form') { if (e.target === act || act.classList.contains('modal-x') || act.classList.contains('modal-success-btn') || act.id === 'form-modal') { e.preventDefault(); closeForm(); } }
+      else if (a === 'close-form') { if (e.target === act) { e.preventDefault(); closeForm(); } }
       else if (a === 'toggle-menu') { e.preventDefault(); toggleMenu(); }
       else if (a === 'prog-prev') { progIdx = (progIdx - 1 + SLIDES.length) % SLIDES.length; renderProg(); }
       else if (a === 'prog-next') { progIdx = (progIdx + 1) % SLIDES.length; renderProg(); }
