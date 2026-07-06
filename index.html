@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profesorado de Yoga Internacional — Sri Sri School of Yoga</title>
+<meta name="description" content="Formación internacional de 200 horas certificada por Yoga Alliance y respaldada por Sri Sri School of Yoga.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Lato:wght@400;700;900&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div aria-hidden="true" class="bg-fixed">
+  <video class="bg-video" autoplay loop muted playsinline poster="assets/images/fondo-mujer.png" src="assets/video/mujer-loop.mp4"></video>
+  <div class="bg-overlay"></div>
+</div>
+<canvas id="particle-bg"></canvas>
+
+<!-- NAV -->
+<nav class="site-nav">
+  <div class="nav-brand" data-nav="__home">
+    <img src="assets/images/logo-gold.png" alt="Sri Sri School of Yoga" class="nav-logo-main">
+    <span class="nav-logo-extra nav-divider"></span>
+    <img class="nav-logo-extra" src="assets/images/arte-de-vivir.png" alt="El Arte de Vivir">
+  </div>
+  <div class="nav-links">
+    <a href="#" class="nav-link" data-nav="__home">Inicio</a>
+    <a href="#" class="nav-link" data-nav="El verdadero motivo">POR QUÉ</a>
+    <a href="#" class="nav-link" data-nav="Presentación del programa">PROGRAMA</a>
+    <a href="#" class="nav-link" data-nav="Instructores">INSTRUCTORES</a>
+    <a href="#" class="nav-link" data-nav="Testimonios">TESTIMONIOS</a>
+    <a href="#" class="nav-link" data-nav="Preguntas">Preguntas</a>
+    <a href="#" class="nav-link" data-nav="Precios">INVERSIÓN</a>
+  </div>
+  <a href="#" class="nav-cta" data-action="open-form">SESIÓN INFORMATIVA</a>
+  <button class="nav-hamburger" data-action="toggle-menu" aria-label="Menú">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2C2823" stroke-width="1.9" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+  </button>
+</nav>
+
+<!-- MENÚ MOBILE -->
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-close" data-action="toggle-menu" aria-label="Cerrar">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2C2823" stroke-width="1.9" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+  </button>
+  <img src="assets/images/logo-gold.png" alt="Sri Sri School of Yoga" class="mobile-logo">
+  <a href="#" class="mobile-link" data-nav="__home">Inicio</a>
+  <a href="#" class="mobile-link" data-nav="El verdadero motivo">Por qué</a>
+  <a href="#" class="mobile-link" data-nav="Presentación del programa">Programa</a>
+  <a href="#" class="mobile-link" data-nav="Instructores">Instructores</a>
+  <a href="#" class="mobile-link" data-nav="Testimonios">Testimonios</a>
+  <a href="#" class="mobile-link" data-nav="Preguntas">Preguntas</a>
+  <a href="#" class="mobile-link" data-nav="Precios">Inversión</a>
+  <a href="#" class="mobile-cta" data-action="open-form">Quiero postular</a>
+</div>
+
+<!-- HERO -->
+<header class="hero" data-panel="hero">
+  <div class="hero-pad">
+    <p class="hero-anim hero-eyebrow">PROFESORADO DE YOGA  INTERNACIONAL</p>
+    <h1 class="hero-anim hero-title">
+      No se trata solo de<br>
+      aprender yoga.<br>
+      <span class="accent">Se trata de descubrir<br>
+        quién verdaderamente eres.</span>
+    </h1>
+    <p class="hero-anim hero-sub">
+      Formación internacional de 200 horas certificada por Yoga Alliance y respaldada por Sri Sri School of Yoga.
+    </p>
+    <div class="hero-anim hero-benefits">
+      <div class="hero-benefit">
+        <img src="assets/images/loto.png" alt="">
+        <p>Transformación personal profunda</p>
+      </div>
+      <div class="hero-benefit">
+        <img src="assets/images/globo.png" alt="">
+        <p>Certificación Internacional</p>
+      </div>
+      <div class="hero-benefit">
+        <img src="assets/images/amor-cuidado.png" alt="">
+        <p>Aprende, practica y enseña con propósito</p>
+      </div>
+      <div class="hero-benefit">
+        <img src="assets/images/comunidad.png" alt="">
+        <p>Comunidad que te acompaña</p>
+      </div>
+    </div>
+    <div class="hero-actions-wrap">
+      <div class="hero-anim hero-actions">
+        <a href="#" class="hero-btn-primary" data-action="open-form">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 9h18M8 3v4M16 3v4"></path></svg>
+          <span class="hero-btn-text"><strong>RESERVAR MI LUGAR</strong><span>Sesión informativa gratuita</span></span>
+        </a>
+        <a href="https://wa.me/51960099510?text=Hola,%20quiero%20información%20sobre%20el%20Profesorado%20de%20Yoga" target="_blank" rel="noopener" class="hero-btn-wa">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.6"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3z"></path><path d="M8.5 9c0 4 2.5 6.5 6.5 6.5" stroke-width="1.4"></path></svg>
+          <span class="hero-btn-text"><strong class="wa-title">HABLAR POR WHATSAPP</strong><span class="wa-num">+51 960 099 510</span></span>
+        </a>
+      </div>
+      <div class="hero-anim hero-cd">
+        <div class="cd-label-group">
+          <div class="cd-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 9h18M8 3v4M16 3v4"></path></svg>
+          </div>
+          <div class="cd-label-text">
+            <p class="cd-caption">CIERRE DE INSCRIPCIONES</p>
+            <p class="cd-date">Comienza 29 de agosto</p>
+          </div>
+        </div>
+        <div class="cd-digits">
+          <div class="cd-cell"><div class="cd-num" data-cd="days">--</div><div class="cd-unit">DÍAS</div></div>
+          <div class="cd-cell"><div class="cd-num" data-cd="hours">--</div><div class="cd-unit">HORAS</div></div>
+          <div class="cd-cell"><div class="cd-num" data-cd="min">--</div><div class="cd-unit">MIN</div></div>
+          <div class="cd-cell"><div class="cd-num cd-accent" data-cd="sec">--</div><div class="cd-unit">SEG</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SECCIÓN 2 — MÁS QUE UN PROFESORADO -->
+<section data-screen-label="El verdadero motivo" class="sec sec-2">
+  <div class="sec2-inner">
+    <div class="reveal center-head">
+      <div class="loto-divider">
+        <span class="hline-46"></span>
+        <img src="assets/images/loto.png" alt="" class="loto-30">
+        <span class="hline-46"></span>
+      </div>
+      <p class="eyebrow">MÁS QUE UN PROFESORADO</p>
+      <h2 class="h2-serif">Una transformación que se vive en<br><span class="accent">tres dimensiones</span></h2>
+      <p class="lead">Este profesorado integra cuerpo, mente y espíritu para que crezcas como persona y como guía capaz de <span class="accent-b">inspirar y acompañar</span> a otros.</p>
+    </div>
+    <div class="cards-3">
+      <div class="reveal card-3" data-reveal-delay="0" data-hover="transform: translateY(-8px); box-shadow: 0 22px 54px rgba(90,70,40,0.16);">
+        <img src="assets/images/s2-card1.png" alt="" class="card-3-img">
+        <div class="card-3-badge">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.5" r="2.2"></circle><path d="M12 9c-1.3 0-2.4.9-2.7 2.2L9 13"></path><path d="M12 9c1.3 0 2.4.9 2.7 2.2L15 13"></path><path d="M4.5 17c2-1.2 4.5-1.8 7.5-1.8s5.5.6 7.5 1.8c-2 1.2-4.5 1.8-7.5 1.8s-5.5-.6-7.5-1.8z"></path></svg>
+        </div>
+        <div class="card-3-body">
+          <h3 class="card-3-title">DESARROLLO PERSONAL</h3>
+          <p class="card-3-text">Profundiza en tu autoconocimiento, maneja el estrés y cultiva una mente en calma. Conviértete en tu mejor versión.</p>
+        </div>
+      </div>
+      <div class="reveal card-3" data-reveal-delay="140" data-hover="transform: translateY(-8px); box-shadow: 0 22px 54px rgba(90,70,40,0.16);">
+        <img src="assets/images/s2-card2.png" alt="" class="card-3-img">
+        <div class="card-3-badge">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5C7 17 3.5 13.8 3.5 9.6 3.5 6.9 5.6 5 8.1 5c1.7 0 3.1.9 3.9 2.3C12.8 5.9 14.2 5 15.9 5c2.5 0 4.6 1.9 4.6 4.6 0 4.2-3.5 7.4-8.5 10.9z"></path></svg>
+        </div>
+        <div class="card-3-body">
+          <h3 class="card-3-title">BIENESTAR INTEGRAL</h3>
+          <p class="card-3-text">Fortalece tu cuerpo, mejora tu salud y vitalidad a través del yoga, la respiración y la meditación. Equilibrio que se siente y se irradia.</p>
+        </div>
+      </div>
+      <div class="reveal card-3" data-reveal-delay="280" data-hover="transform: translateY(-8px); box-shadow: 0 22px 54px rgba(90,70,40,0.16);">
+        <img src="assets/images/s2-card3.png" alt="" class="card-3-img">
+        <div class="card-3-badge">
+          <img src="assets/images/comunidad.png" alt="" class="badge-img">
+        </div>
+        <div class="card-3-body">
+          <h3 class="card-3-title">PROPÓSITO Y PROFESIÓN</h3>
+          <p class="card-3-text">Adquiere las herramientas para enseñar yoga con seguridad, autenticidad y compasión. Impacta vidas, incluido la tuya.</p>
+        </div>
+      </div>
+    </div>
+    <div class="reveal cert-bar">
+      <div class="cert-lead">Formación certificada y respaldada <span class="accent">por instituciones de prestigio mundial</span></div>
+      <div class="cert-logos">
+        <img src="assets/images/arte-de-vivir.png" alt="El Arte de Vivir" class="cert-logo-46">
+        <span class="vline-44"></span>
+        <img src="assets/images/logo-gold.png" alt="Sri Sri School of Yoga" class="cert-logo-46">
+        <span class="vline-44"></span>
+        <img src="assets/images/indian-yoga-association.png" alt="Indian Yoga Association" class="cert-logo-74">
+        <span class="vline-44"></span>
+        <img src="assets/images/yoga-alliance.webp" alt="Yoga Alliance" class="cert-logo-42">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECCIÓN 3 — EL VERDADERO MOTIVO -->
+<section data-screen-label="Motivo profundo" class="sec sec-3">
+  <div class="reveal loto-divider loto-divider-wide">
+    <span class="hline-120"></span>
+    <img src="assets/images/loto.png" alt="" class="loto-28">
+    <span class="hline-120"></span>
+  </div>
+  <div class="reveal sec3-head">
+    <p class="eyebrow">EL VERDADERO MOTIVO</p>
+    <div class="rule-130"></div>
+    <h2 class="h2-serif sec3-h2">Tal vez no llegaste aquí porque quieres <br><span class="accent">enseñar yoga.</span></h2>
+    <p class="lead sec3-lead">Llegaste porque hay algo en ti que busca un cambio real.</p>
+  </div>
+  <div class="cards-4">
+    <div class="reveal card-4" data-reveal-delay="0" data-hover="transform: translateY(-8px); box-shadow: 0 22px 54px rgba(90,70,40,0.18);">
+      <div class="card-4-icon"><img src="assets/images/loto.png" alt="" class="loto-42"></div>
+      <h3 class="card-4-title">Buscas más equilibrio</h3>
+      <p class="card-4-text">Sientes que el estrés y la ansiedad ya no te permiten disfrutar la vida.</p>
+    </div>
+    <div class="reveal card-4" data-reveal-delay="120" data-hover="transform: translateY(-8px); box-shadow: 0 22px 54px rgba(90,70,40,0.18);">
+      <div class="card-4-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4C10 4 4 10 4 20c10 0 16-6 16-16z"></path><path d="M4 20C8 14 13 9 18 6"></path></svg></div>
+      <h3 class="card-4-title">Quieres cuidar tu cuerpo</h3>
+      <p class="card-4-text">Deseas más energía, salud y vitalidad para tu día a día.</p>
+    </div>
+    <div class="reveal card-4" data-reveal-delay="240" data-hover="transform: translateY(-8px); box-shadow: 0 22px 54px rgba(90,70,40,0.18);">
+      <div class="card-4-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5C7 17 3.5 13.8 3.5 9.6 3.5 6.9 5.6 5 8.1 5c1.7 0 3.1.9 3.9 2.3C12.8 5.9 14.2 5 15.9 5c2.5 0 4.6 1.9 4.6 4.6 0 4.2-3.5 7.4-8.5 10.9z"></path></svg></div>
+      <h3 class="card-4-title">Necesitas reconectar</h3>
+      <p class="card-4-text">Sientes que te desconectaste de ti mismo y de lo que realmente importa.</p>
+    </div>
+    <div class="reveal card-4" data-reveal-delay="360" data-hover="transform: translateY(-8px); box-shadow: 0 22px 54px rgba(90,70,40,0.18);">
+      <div class="card-4-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.5"></circle><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"></path></svg></div>
+      <h3 class="card-4-title">Buscas propósito</h3>
+      <p class="card-4-text">Quieres hacer algo significativo que tenga un impacto positivo en tu vida y en la de otros.</p>
+    </div>
+  </div>
+  <div class="reveal sec3-foot">
+    <p>Muchas personas llegan buscando aprender yoga y descubren algo mucho más profundo: <span class="accent-b">una transformación personal</span> que impacta su manera de vivir, relacionarse y acompañar a otros.</p>
+  </div>
+</section>
+
+<!-- SECCIÓN 4 — PRESENTACIÓN DEL PROGRAMA (VIDEO) -->
+<section data-screen-label="Presentación del programa" class="sec sec-4">
+  <div class="sec4-inner">
+    <div class="prog-grid">
+      <div class="reveal prog-left">
+        <p class="eyebrow">CONOCE MÁS SOBRE EL PROFESORADO</p>
+        <h2 class="h2-serif prog-h2">Presentación del<br><span class="accent">programa</span></h2>
+        <div class="rule-64"></div>
+        <p class="prog-intro">En este video, te contamos cómo está estructurada la formación, cuál es nuestra metodología y por qué este profesorado transforma la vida de tantas personas.</p>
+        <div class="prog-card-wrap">
+          <div class="prog-card">
+            <div class="prog-card-head">
+              <div class="prog-card-num-wrap">
+                <span class="prog-card-tick"></span>
+                <span class="prog-card-num" id="prog-num">01 / 03</span>
+              </div>
+              <img src="assets/images/loto.png" alt="" class="prog-card-loto">
+            </div>
+            <h3 class="prog-card-title" id="prog-title">MULTI DISCIPLINARIO</h3>
+            <p class="prog-card-text" id="prog-body">Sri Sri School integra disciplinas como Yoga, Ayurveda y Ciencias del Ambiente y la Salud dentro de un marco académico en común, con criterios específicos de calidad, ética y coherencia pedagógica. Ofrece trayectos formativos, certificaciones y programas de corto, mediano y largo plazo, orientados tanto al desarrollo personal como a la formación profesional.</p>
+          </div>
+        </div>
+      </div>
+      <div class="prog-controls">
+        <button class="ctrl-btn ctrl-prev" data-action="prog-prev" data-hover="border-color: #C6852B; background: #FBF6EC;" aria-label="Anterior">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"></path></svg>
+        </button>
+        <div class="prog-dots" id="prog-dots"></div>
+        <button class="ctrl-btn ctrl-next" data-action="prog-next" data-hover="background: #B57724;" aria-label="Siguiente">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"></path></svg>
+        </button>
+      </div>
+      <div class="reveal prog-video" id="prog-video" data-reveal-delay="240" data-video-url="https://player.cloudinary.com/embed/?cloud_name=duczzabnr&public_id=SSYS-video_intro_1_-Compresi%C3%B3n_de_v%C3%ADdeo-20260702-121726_t40fb8&autoplay=true&muted=false" data-action="play-prog-video">
+        <img src="assets/images/video-poster-programa.png" alt="Video de presentación" class="prog-video-poster">
+        <div class="prog-video-play"><div class="prog-play-circle"><svg width="30" height="30" viewBox="0 0 24 24" fill="#C6852B"><path d="M8 5v14l11-7z"></path></svg></div></div>
+        <div class="prog-video-caption">
+          <div class="prog-video-caption-inner"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>Duración aprox. 3:50 min</div>
+        </div>
+      </div>
+      <div class="prog-btn-wrap" id="prog-btn-wrap">
+        <a href="https://wa.link/07t7rg" target="_blank" rel="noopener" class="prog-cta" data-hover="transform: translateY(-3px); box-shadow: 0 16px 32px rgba(198,161,91,0.42);">SOLICITAR ENTREVISTA</a>
+      </div>
+    </div>
+    <div class="reveal stats-grid" data-reveal-delay="120">
+      <div class="stat-cell">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"></circle><path d="M2.5 20c0-3 2.9-5.2 6.5-5.2S15.5 17 15.5 20"></path><path d="M16 5.2A3 3 0 0 1 16 11"></path><path d="M18 14.9c2.2.6 3.5 2.2 3.5 4.1"></path></svg>
+        <div class="stat-num">+1500</div>
+        <h4 class="stat-label">ESTUDIANTES</h4>
+      </div>
+      <div class="stat-cell">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"></circle><path d="M9 13.5L7.5 21 12 18.5 16.5 21 15 13.5"></path></svg>
+        <div class="stat-num">+40</div>
+        <h4 class="stat-label">AÑOS DE<br>EXPERIENCIA</h4>
+      </div>
+      <div class="stat-cell">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4L2 9l10 5 10-5-10-5z"></path><path d="M6 11v4.5c0 1.5 2.7 2.8 6 2.8s6-1.3 6-2.8V11"></path><path d="M22 9v5"></path></svg>
+        <div class="stat-num">+470</div>
+        <h4 class="stat-label">EGRESADOS</h4>
+      </div>
+      <div class="stat-cell">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 9h18M8 3v4M16 3v4"></path><path d="M9 15l2 2 4-4"></path></svg>
+        <div class="stat-num">10</div>
+        <h4 class="stat-label">MESES DE<br>FORMACIÓN</h4>
+      </div>
+      <div class="stat-cell">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h9a1 1 0 0 1 1 1v13l-3.5-2L11 19V5a1 1 0 0 0-1-1z"></path><circle cx="8" cy="9" r="4"></circle></svg>
+        <div class="stat-num">200 <span class="stat-num-sm">HS</span></div>
+        <h4 class="stat-label">CERTIFICACIÓN<br>INTERNACIONAL</h4>
+      </div>
+      <div class="stat-cell stat-cell-last">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="1.5"></rect><path d="M8 20h8M12 16v4"></path></svg>
+        <div class="stat-num stat-num-hibrido">Híbrido</div>
+        <h4 class="stat-label">ONLINE +<br>PRESENCIAL</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTRUCTORES -->
+<section data-screen-label="Instructores" class="sec sec-inst">
+  <div class="reveal center-head inst-head">
+    <p class="eyebrow">INSTRUCTORES</p>
+    <h2 class="h2-serif">Conoce a nuestro equipo</h2>
+    <div class="loto-divider inst-loto">
+      <span class="hline-60"></span>
+      <img src="assets/images/loto.png" alt="" class="loto-30">
+      <span class="hline-60"></span>
+    </div>
+    <p class="lead inst-lead">Aprende y desarróllate con un equipo docente altamente calificado.</p>
+  </div>
+  <div class="reveal inst-carousel" id="inst-carousel" data-reveal-delay="120">
+    <div class="inst-card-wrap">
+      <div class="inst-photo"><img id="inst-foto" alt=""></div>
+      <div class="inst-card">
+        <h3 class="inst-name" id="inst-name"></h3>
+        <div class="inst-pais">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="#C6852B"><path d="M8 16s6-5.686 6-10A6 6 0 1 0 2 6c0 4.314 6 10 6 10zm0-7.5A2.5 2.5 0 1 1 8 3a2.5 2.5 0 0 1 0 5.5z"></path></svg>
+          <span id="inst-pais"></span>
+        </div>
+        <div class="inst-rule"></div>
+        <p class="inst-bio" id="inst-bio"></p>
+      </div>
+    </div>
+    <div class="inst-controls">
+      <button class="ctrl-btn ctrl-prev" data-action="inst-prev" data-hover="border-color: #C6852B; background: #FBF6EC;" aria-label="Anterior">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"></path></svg>
+      </button>
+      <div class="inst-dots" id="inst-dots"></div>
+      <button class="ctrl-btn ctrl-next" data-action="inst-next" data-hover="background: #B57724;" aria-label="Siguiente">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"></path></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section data-screen-label="Testimonios" class="sec sec-tsm">
+  <div class="tsm-inner">
+    <div class="reveal tsm-grid" data-reveal-delay="120">
+      <div class="tsm-video" id="tsm-video">
+        <img class="tsm-poster" id="tsm-poster" alt="">
+        <div class="tsm-play" data-action="play-tsm">
+          <div class="tsm-play-circle" data-hover="transform: scale(1.08);"><svg width="28" height="28" viewBox="0 0 24 24" fill="#C6852B"><path d="M8 5v14l11-7z"></path></svg></div>
+        </div>
+        <div class="tsm-video-caption"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>Testimonio en video</div>
+      </div>
+      <div class="tsm-card">
+        <div class="tsm-card-head">
+          <div class="loto-divider tsm-loto">
+            <span class="hline-40"></span>
+            <img src="assets/images/loto.png" alt="" class="loto-26">
+            <span class="hline-40"></span>
+          </div>
+          <p class="eyebrow tsm-eyebrow">TESTIMONIOS</p>
+          <h2 class="h2-serif tsm-h2">Historias reales de <span class="accent">transformación</span></h2>
+          <p class="lead tsm-lead">Personas como tú que decidieron dar el paso y hoy viven más conscientes, saludables y conectadas con su propósito.</p>
+        </div>
+        <p class="tsm-quote" id="tsm-quote"></p>
+        <div class="loto-divider tsm-quote-div">
+          <span class="hline-grad-r"></span>
+          <img src="assets/images/loto.png" alt="" class="loto-20">
+          <span class="hline-grad-l"></span>
+        </div>
+        <div class="tsm-person">
+          <img class="tsm-avatar" id="tsm-avatar" alt="">
+          <div class="tsm-person-text">
+            <span class="tsm-name" id="tsm-name"></span>
+            <span class="tsm-cargo" id="tsm-cargo"></span>
+          </div>
+        </div>
+        <div class="tsm-dots" id="tsm-dots"></div>
+      </div>
+    </div>
+    <div class="reveal tsm-data" data-reveal-delay="220">
+      <div class="tsm-cd">
+        <p class="tsm-cd-caption">LA PRÓXIMA PROMOCIÓN COMIENZA EN</p>
+        <div class="tsm-cd-row">
+          <div class="tsm-cd-cell"><div class="tsm-cd-num" data-cd="days">--</div><div class="tsm-cd-unit">DÍAS</div></div>
+          <div class="tsm-cd-sep"></div>
+          <div class="tsm-cd-cell"><div class="tsm-cd-num" data-cd="hours">--</div><div class="tsm-cd-unit">HORAS</div></div>
+          <div class="tsm-cd-sep"></div>
+          <div class="tsm-cd-cell"><div class="tsm-cd-num" data-cd="min">--</div><div class="tsm-cd-unit">MIN</div></div>
+          <div class="tsm-cd-sep"></div>
+          <div class="tsm-cd-cell"><div class="tsm-cd-num tsm-cd-accent" data-cd="sec">--</div><div class="tsm-cd-unit">SEG</div></div>
+        </div>
+      </div>
+      <div class="tsm-metrics">
+        <div class="tsm-metric">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"></circle><path d="M2.5 20c0-3 2.9-5.2 6.5-5.2S15.5 17 15.5 20"></path><path d="M16 5.2A3 3 0 0 1 16 11"></path><path d="M18 14.9c2.2.6 3.5 2.2 3.5 4.1"></path></svg>
+          <div class="tsm-metric-text"><p class="tsm-metric-title"><span class="accent">+500</span> ALUMNOS FORMADOS</p><p class="tsm-metric-sub">en Latinoamérica</p></div>
+        </div>
+        <span class="vline-44"></span>
+        <div class="tsm-metric">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 9h18M8 3v4M16 3v4"></path><path d="M9 15l2 2 4-4"></path></svg>
+          <div class="tsm-metric-text"><p class="tsm-metric-title">TRANSFORMANDO VIDAS</p><p class="tsm-metric-sub">desde el <span class="accent-b">2009</span></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PREGUNTAS FRECUENTES -->
+<section data-screen-label="Preguntas" class="sec sec-faq">
+  <div class="faq-grid">
+    <div class="reveal faq-left">
+      <div class="faq-eyebrow-row">
+        <p class="eyebrow faq-eyebrow">PREGUNTAS FRECUENTES</p>
+        <img src="assets/images/loto.png" alt="" class="loto-26">
+      </div>
+      <h2 class="h2-serif faq-h2">Resolvemos tus dudas.<br>Para que tomes tu <span class="accent">decisión con claridad.</span></h2>
+      <h3 class="faq-sub">¿Algo te frena? Lo entendemos.</h3>
+      <p class="faq-text">Reunimos las dudas más habituales antes de comenzar el profesorado. Si te queda alguna otra, escríbenos y con gusto te acompañamos.</p>
+      <a href="https://wa.me/51960099510?text=Hola,%20quiero%20información%20sobre%20el%20Profesorado%20de%20Yoga" target="_blank" rel="noopener" class="faq-wa" data-hover="transform: translateY(-3px); box-shadow: 0 16px 32px rgba(198,133,43,0.42);">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3z"></path><path d="M8.5 9c0 4 2.5 6.5 6.5 6.5" stroke-width="1.4"></path></svg>
+        TENGO OTRA PREGUNTA
+      </a>
+    </div>
+    <div class="reveal faq-right" data-reveal-delay="140">
+      <div class="faq-scroll" id="faq-list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRECIOS -->
+<section data-screen-label="Precios" class="sec sec-precios">
+  <div class="precios-grid">
+    <div class="reveal precios-left">
+      <div class="precios-loto"><img src="assets/images/loto.png" alt="" class="loto-30"><span class="hline-46"></span></div>
+      <p class="eyebrow">EL SIGUIENTE PASO</p>
+      <h2 class="h2-serif precios-h2">Tu transformación comienza con <span class="accent">una decisión.</span></h2>
+      <p class="precios-sub">Lo que aprenderás en unos meses puede acompañarte <span class="accent-b">toda la vida.</span></p>
+      <div class="precios-price">
+        <span class="price-old">US$ 2.249,90</span>
+        <span class="price-new">US$ 1.599,90</span>
+      </div>
+      <div class="bonos-box">
+        <div class="bonos-head">
+          <div class="bonos-head-left"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="ico-shrink"><rect x="3" y="8" width="18" height="4" rx="1"></rect><path d="M4 12v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8"></path><path d="M12 8v13"></path><path d="M12 8S10.5 4 8 4a2.2 2.2 0 0 0 0 4.4h4z"></path><path d="M12 8s1.5-4 4-4a2.2 2.2 0 0 1 0 4.4h-4z"></path></svg><p class="bonos-caption">TU FORMACIÓN INCLUYE TAMBIÉN ESTOS BENEFICIOS</p></div>
+          <span class="bonos-total">US$ 650</span>
+        </div>
+        <div class="bono-row"><span>Membresía El Arte de Vivir</span><span class="bono-val">US$ 230</span></div>
+        <div class="bono-row"><span>Cursos de Profundización</span><span class="bono-val">US$ 420</span></div>
+      </div>
+      <div class="oferta-box">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="ico-shrink"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+        <p class="oferta-text">Si te inscribes ahora o participas en la <strong class="oferta-strong">sesión gratuita</strong>, obtén <strong class="accent">50% OFF en matrícula&nbsp;</strong> dentro de las <strong class="accent">48 h</strong>.</p>
+      </div>
+    </div>
+    <div class="reveal precios-right" data-reveal-delay="160">
+      <h3 class="precios-right-title">Elige tu modalidad de Inscripción:</h3>
+      <p class="precios-right-sub">Matrícula US$ 159,90 · <span class="accent-b">50% OFF en tu sesión</span></p>
+      <div class="pay-list">
+        <div class="pay-row">
+          <span class="pay-ico pay-ico-cream"><img src="assets/images/tarjeta.png" alt="" class="pay-ico-img"></span>
+          <div class="pay-row-text">
+            <p class="pay-row-title">Pago único <span class="pay-off">· 10% OFF</span></p>
+            <p class="pay-row-sub">Un solo pago, ahorras US$ 160</p>
+          </div>
+          <span class="pay-price">US$ 1.439,91</span>
+        </div>
+        <div class="pay-row pay-row-featured">
+          <span class="pay-ico pay-ico-gold"><img src="assets/images/tarjeta.png" alt="" class="pay-ico-img"></span>
+          <div class="pay-row-text">
+            <p class="pay-row-title">Cuotas con tarjeta <span class="pay-off">· 5% OFF</span></p>
+            <p class="pay-row-sub">6 cuotas sin interés · total US$ 1.519,91</p>
+          </div>
+          <span class="pay-price accent">US$ 253,32<span class="pay-price-sm">/mes</span></span>
+        </div>
+        <div class="pay-row">
+          <span class="pay-ico pay-ico-grey"><img src="assets/images/bancario.png" alt="" class="pay-ico-img"></span>
+          <div class="pay-row-text">
+            <p class="pay-row-title">Transferencia bancaria</p>
+            <p class="pay-row-sub">10 cuotas · total US$ 1.599,00</p>
+          </div>
+          <span class="pay-price">US$ 159,90<span class="pay-price-sm">/mes</span></span>
+        </div>
+      </div>
+      <a href="https://wa.link/07t7rg" target="_blank" rel="noopener" class="precios-cta" data-hover="background: #B57724;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3z"></path><path d="M8.5 9c0 4 2.5 6.5 6.5 6.5" stroke-width="1.4"></path></svg>
+        RESERVAR POR WHATSAPP
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL INSCRIPCIÓN -->
+<div class="modal-backdrop" id="form-modal" data-action="close-form">
+  <div class="modal-card" id="modal-card">
+    <div class="modal-head">
+      <p class="modal-kicker">PROFESORADO DE YOGA — 200 HORAS</p>
+      <h2 class="modal-title">Reserva tu lugar</h2>
+      <p class="modal-hl">🔥 Participa en la sesión y accede a beneficios exclusivos.</p>
+      <p class="modal-sub">Duración 40 min · Sin costo · Por Zoom</p>
+      <a href="#" class="modal-x" data-action="close-form">×</a>
+    </div>
+    <form class="modal-form" id="reg-form">
+      <label class="field">Nombre
+        <input type="text" name="nombre" required placeholder="Tu nombre completo">
+      </label>
+      <label class="field">WhatsApp
+        <input type="tel" name="telefono" required placeholder="+51 999 999 999">
+      </label>
+      <label class="field">Correo
+        <input type="email" name="email" required placeholder="tucorreo@ejemplo.com">
+      </label>
+      <label class="field">Ciudad / País
+        <input type="text" name="ciudad" required placeholder="Lima, Perú">
+      </label>
+      <label class="field">¿Practicas yoga actualmente?
+        <select name="practica" required>
+          <option value="" disabled selected>Selecciona una opción</option>
+          <option value="Sí, con regularidad">Sí, con regularidad</option>
+          <option value="Sí, ocasionalmente">Sí, ocasionalmente</option>
+          <option value="No, pero quiero empezar">No, pero quiero empezar</option>
+        </select>
+      </label>
+      <label class="field">¿Cuál es tu principal motivación para realizar este profesorado?
+        <textarea name="motivacion" required rows="3" placeholder="Cuéntanos brevemente..."></textarea>
+      </label>
+      <label class="field">¿Estás en condiciones de invertir en tu formación durante los próximos meses?
+        <select name="inversion" required>
+          <option value="" disabled selected>Selecciona una opción</option>
+          <option value="Sí">Sí</option>
+          <option value="Sí, con plan de pagos">Sí, con plan de pagos</option>
+          <option value="Aún lo estoy evaluando">Aún lo estoy evaluando</option>
+        </select>
+      </label>
+      <div class="modal-confirm">
+        <p class="modal-confirm-title">Para reservar mi lugar, confirmo que:</p>
+        <label class="check-line"><input type="checkbox" required>He leído la información del Profesorado (contenido, inversión y bonificaciones).</label>
+        <label class="check-line"><input type="checkbox" required>Me comprometo a asistir puntualmente.</label>
+      </div>
+      <button type="submit" class="modal-submit" id="modal-submit">QUIERO MI LUGAR</button>
+      <p class="modal-error" id="modal-error" hidden></p>
+      <p class="modal-note">Nos comunicaremos contigo en menos de 24 horas.</p>
+      <p class="modal-legal">Estas sesiones están dirigidas a personas con un interés genuino en participar del Profesorado. Para una mejor coordinación, te pedimos confirmar tu asistencia únicamente si realmente tienes la intención de asistir. Si no es así, por favor no te registres. ¡Gracias por tu comprensión!</p>
+    </form>
+    <div class="modal-success" id="form-success" hidden>
+      <div class="modal-success-ico"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#C6852B" stroke-width="2"><path d="M5 12l5 5L20 6"></path></svg></div>
+      <h2 class="modal-success-title">¡Gracias, <span id="success-name"></span>!</h2>
+      <p class="modal-success-text">Recibimos tu solicitud. Un asesor de Sri Sri School of Yoga te contactará muy pronto.</p>
+      <a href="#" class="modal-success-btn" data-action="close-form">Cerrar</a>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/script.js" defer></script>
+</body>
+</html>
